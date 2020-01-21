@@ -30,7 +30,7 @@ class App extends React.Component {
         );
         return (
             <div className="App">
-                <h1>Monster Rolodex</h1>
+                <h1>React Basics</h1>
                 <SearchBox placeholder="search monsters" handleChange={(e) => this.handleOnChange(e)}/>
                 <CardList monsters={filteredMonsters} />
             </div>
